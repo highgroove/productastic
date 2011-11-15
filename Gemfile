@@ -5,6 +5,9 @@ gem 'rails', '3.1.1'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
+gem 'pg'
+
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -20,8 +23,6 @@ gem 'sunspot_rails', '1.3.0.rc6'
 
 group :development do
   
-  gem 'sqlite3'
-
   # Run a local Solr instance in development
   gem 'sunspot_solr', '1.3.0.rc6'
   
